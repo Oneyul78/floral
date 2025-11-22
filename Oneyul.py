@@ -5,7 +5,7 @@ from datetime import datetime, timezone, timedelta
 import json
 
 # -------------------- 🎫 토큰 입력 --------------------
-TOKEN = "MTQ0MTQxNTQ0NTg2NDM4MjU2Ng.GYHIKT.ebJ-DuNOo0_lVR45GKXhr0vcImJ2xXBflxyjzA"  # ★여기만 네 토큰으로 수정★
+TOKEN = "DSCORD_토큰"  # ★여기만 네 토큰으로 수정★
 
 # -------------------- 💾 저장 파일 이름 --------------------
 SAVE_FILE = "oneyul_data.json"  # 같은 폴더에 자동 생성/저장됨
@@ -1023,4 +1023,5 @@ if __name__ == "__main__":
     # 시작할 때 이전 데이터 로드
     load_data()
     # 봇 실행
+
     bot.run(TOKEN)
